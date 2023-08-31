@@ -1,0 +1,99 @@
+header{
+    background-color: rgb(36, 43, 49);
+}
+
+h1{
+    background-color: aqua;
+    display: inline;
+    padding: 0 1% 1% 5%;
+    margin-top: 0;
+}
+
+.head{
+    width: 100%;
+}
+
+nav ul{
+    list-style-type: none;
+    margin-left: 75%;
+}
+
+nav ul li{
+    display: inline;
+    color: aqua;
+    border-bottom-style: solid;
+    margin: 1%;
+}
+
+.subhead{
+    width: 100%;
+    height: 20vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(road-image.jpg);
+}
+
+.subhead h2{
+    margin-top: auto;
+    margin-right: 2%;
+    background-color: aqua;
+    padding: 1%;
+}
+
+article{
+}
+
+.group{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
+}
+
+.side{
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1%;
+}
+
+.content{
+    width: 80%;
+    border-left-style: solid;
+    padding-left: 2%;
+}
+.work{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.example-top{
+    width: 80%;
+}
+
+.example-small{
+    width: 40%;
+}
+
+.content ul{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content:space-between;
+    width: 20%;
+}
+
+.content ul li{
+    display: inline;
+}
+
+.align{
+    align-self: center;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(36, 43, 49);
+    padding: 1vh;
+}
