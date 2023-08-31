@@ -1,3 +1,11 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(215, 222, 238);
+}
+
 header{
     background-color: rgb(36, 43, 49);
 }
@@ -40,13 +48,16 @@ nav a:active{
     height: 20vh;
     background-color: aliceblue;
     display: flex;
-    justify-content: flex-end;
     background-image: url(road-image.jpg);
 }
 
+img#noah{
+    margin: 5px; 
+}
 .subhead h2{
     margin-top: auto;
     margin-right: 2%;
+    margin-left: auto;
     background-color: aqua;
     padding: 1%;
 }
@@ -73,6 +84,11 @@ article{
     border-left-style: solid;
     padding-left: 2%;
 }
+
+.align-text{
+    
+}
+
 .work{
     display: flex;
     flex-wrap: wrap;
@@ -98,7 +114,7 @@ a.example:active{
 }
 
 .example:hover{
-    box-shadow: inset 0px 0px 8px rgb(180, 76, 145), 0px 0px 15px rgb(240, 53, 209);
+    box-shadow: inset 0px 0px 8px rgb(194, 50, 163), 0px 0px 15px rgb(240, 53, 209);
 }
 
 .large{
@@ -107,11 +123,11 @@ padding-top: 20%;
 }
 
 .ex1{
-    background-image: url(code-image.jpg);
+    background-image: url(css-mini-project-image.png);
 }
 
 .ex2{
-    background-image: url(code-image.jpg);
+    background-image: url(prework-image.png);
 }
 
 .ex3{
