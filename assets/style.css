@@ -2,27 +2,37 @@ header{
     background-color: rgb(36, 43, 49);
 }
 
+.head{
+    width: 100%;
+    display: flex;
+}
+
 h1{
     background-color: aqua;
     display: inline;
-    padding: 0 1% 1% 5%;
+    padding: 1% 1% 1% 4%;
     margin-top: 0;
 }
 
-.head{
-    width: 100%;
+nav{
+    align-self: flex-end;
+    margin-left: auto;
 }
 
-nav ul{
-    list-style-type: none;
-    margin-left: 75%;
+nav a{
+    margin-right: 7px;
 }
 
-nav ul li{
-    display: inline;
+nav a:visited, nav a:link{
     color: aqua;
-    border-bottom-style: solid;
-    margin: 1%;
+} 
+
+nav a:hover{
+    color: blueviolet;
+}
+
+nav a:active{
+    color: wheat;
 }
 
 .subhead{
@@ -66,34 +76,79 @@ article{
 .work{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.example-top{
-    width: 80%;
+.example{
+flex-grow: 1;
+flex-basis: 40%;
+margin: 1vh;
+display: flex;
+justify-content: flex-start;
+padding: 5% 1% 2% 0%;
+border: 4px solid aqua;
 }
 
-.example-small{
-    width: 40%;
+a.example:visited, a.example:link{
+    color: black;
 }
 
-.content ul{
-    list-style: none;
-    padding-left: 0;
-    display: flex;
-    justify-content:space-between;
-    width: 20%;
+a.example:active{
+    color: blueviolet;
 }
 
-.content ul li{
-    display: inline;
+.example:hover{
+    box-shadow: inset 0px 0px 8px rgb(180, 76, 145), 0px 0px 15px rgb(240, 53, 209);
 }
+
+.large{
+flex-basis: 80%;
+padding-top: 20%;
+}
+
+.ex1{
+    background-image: url(code-image.jpg);
+}
+
+.ex2{
+    background-image: url(code-image.jpg);
+}
+
+.ex3{
+    background-image: url(code-image.jpg);
+}
+
+.ex4{
+    background-image: url(code-image.jpg);
+}
+
+.ex5{
+    background-image: url(code-image.jpg);
+}
+
+.title{
+    background-color: aqua;
+    line-height: 2px;
+    }
 
 .align{
     align-self: center;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
 }
 
 footer{
     text-align: center;
     background-color: rgb(36, 43, 49);
     padding: 1vh;
+}
+
+@media screen and (max-width: 992px) {
+
+}
+@media screen and (max-width: 768px) {
+
 }
