@@ -85,10 +85,6 @@ article{
     padding-left: 2%;
 }
 
-.align-text{
-    
-}
-
 .work{
     display: flex;
     flex-wrap: wrap;
@@ -163,8 +159,18 @@ footer{
 }
 
 @media screen and (max-width: 992px) {
-
+    .example{
+        flex-basis: 80%;
+    }
 }
 @media screen and (max-width: 768px) {
-
+    .side{
+        width: 100%;
+        justify-content: space-around;
+        background-color: rgb(130, 148, 190);
+    }
+    .content{
+        width: 100%;
+        border-style: none;
+    }
 }
