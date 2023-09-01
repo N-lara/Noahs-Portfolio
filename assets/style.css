@@ -88,6 +88,7 @@ img#noah{
     border-left-style: solid;
     padding-left: 2%;
 }
+
 /*creates felxbox in work content section and decides sizes and styling for examples in this section*/
 .work{
     display: flex;
