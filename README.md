@@ -12,6 +12,9 @@ N/A
 
 To be used by people wanting to view my work to decide if I am qualified to work on their project.
 
+## Screenshot
+![this is my portfolio webpage.](./assets/screenshot-webpage.jpeg)
+
 ## Credits
 
 I Noah Lara© created this webpage
